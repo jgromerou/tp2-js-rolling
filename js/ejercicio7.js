@@ -14,7 +14,6 @@ let numRepetir = prompt('Introduce la cantidad de números a repetir:');
 
 if (!isNaN(numRepetir)) {
   if (numRepetir > 0 && numRepetir <= 50) {
-    let i, j;
     for (let i = numRepetir; i >= 1; i--) {
       for (let j = i; j >= 1; j--) {
         document.write(i);
