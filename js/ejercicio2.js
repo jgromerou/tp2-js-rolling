@@ -36,6 +36,9 @@ if (isNaN(nota) || nota < 0 || nota > 10) {
     case 6:
       alert('Suficiente');
       break;
+    case 7:
+      alert('Bien');
+      break;
     case 8:
     case 9:
       alert('Notable');
