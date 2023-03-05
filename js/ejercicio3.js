@@ -9,10 +9,11 @@ let sumaCadenas = '';
 
 do {
   let cadena = prompt('Introduce una cadena de texto:');
-  if (sumaCadenas == '' || sumaCadenas == null) {
-    sumaCadenas = sumaCadenas + cadena;
+
+  if (sumaCadenas === null || sumaCadenas === '') {
+    sumaCadenas += cadena;
   } else {
-    sumaCadenas = sumaCadenas + '-' + cadena;
+    sumaCadenas += '-' + cadena;
   }
 } while (confirm('¿Quiere seguir escribiendo?'));
 
