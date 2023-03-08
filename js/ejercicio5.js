@@ -10,13 +10,14 @@ Si lo introducido no es un número deberá indicarse con un alert y volver a pre
 Deberá de repetirse el proceso hasta que el usuario pulse «cancelar».
 */
 
-let dni = 0;
+let dni = '';
 let letra = '';
 let resto = 0;
 
 do {
-  dni = prompt('Introduce un numero de DNI:');
+  dni = prompt('Introduce un numero de DNI entre 0 y 99999999:');
   if (!isNaN(dni)) {
+    console.log(dni);
     if (dni >= 0 && dni <= 99999999) {
       resto = dni % 23;
 
