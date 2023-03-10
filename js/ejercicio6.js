@@ -10,7 +10,7 @@
 …….
 */
 
-let finPiramide = 30;
+const finPiramide = 30;
 
 for (let i = 0; i <= finPiramide; i++) {
   for (let j = 1; j <= i; j++) {
