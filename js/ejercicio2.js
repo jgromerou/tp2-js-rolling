@@ -13,7 +13,7 @@ Si ingreso un número que no esté dentro del rango de 0 a 10 mostrar un mensaje
 Si el número ingresado no es válido mostrar el mensaje “Introduce un número válido”.
 */
 
-let nota = parseInt(prompt('Ingrese la nota: '));
+const nota = parseInt(prompt('Ingrese la nota: '));
 
 if (isNaN(nota) || nota < 0 || nota > 10) {
   if (isNaN(nota)) {
