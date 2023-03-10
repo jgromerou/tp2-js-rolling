@@ -17,7 +17,6 @@ let resto = 0;
 do {
   dni = prompt('Introduce un numero de DNI entre 0 y 99999999:');
   if (!isNaN(dni)) {
-    console.log(dni);
     if (dni >= 0 && dni <= 99999999) {
       resto = dni % 23;
 
