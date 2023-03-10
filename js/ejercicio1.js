@@ -3,7 +3,7 @@
 que ya puede conducir, si la edad ingresada no es un número válido indicarlo en un mensaje.
 */
 
-let edad = parseInt(prompt('Ingrese su edad: '));
+const edad = parseInt(prompt('Ingrese su edad: '));
 
 if (isNaN(edad) || edad < 0 || edad > 110) {
   document.write(`No es una edad válida o se ingresó caracteres de textos.`);
