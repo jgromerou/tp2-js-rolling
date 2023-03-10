@@ -2,7 +2,7 @@
 15- Realiza un script que cuente el número de vocales que tiene un texto.
 */
 
-let cadenaTexto = window.prompt('Ingrese la cadena de texto: ');
+const cadenaTexto = prompt('Ingrese la cadena de texto: ');
 let vocales = 0;
 
 cadenaTexto.toLowerCase();

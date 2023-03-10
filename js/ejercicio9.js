@@ -15,8 +15,7 @@ que indique cuáles son múltiplos de 4 y de 9 y que cada 5 líneas muestre una 
 9 (Múltiplo de 9)
 10
 */
-let i;
-let j = 500;
+const j = 500;
 
 for (let i = 1; i <= j; i++) {
   document.write(`${i} `);

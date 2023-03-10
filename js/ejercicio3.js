@@ -8,7 +8,7 @@ Nota: usar confirm() https://www.w3schools.com/jsref/met_win_confirm.asp
 let sumaCadenas = '';
 
 do {
-  let cadena = prompt('Introduce una cadena de texto:');
+  const cadena = prompt('Introduce una cadena de texto:');
 
   if (sumaCadenas === null || sumaCadenas === '') {
     sumaCadenas += cadena;
